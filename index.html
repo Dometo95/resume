@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="evgeny,cv,resume">
+        <meta name="description" content="Это сайт-резюме Евгения Вавилова">
+        <title>Evgeny Resume</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+        <div class="info">
+            <img src="Avatar.jpg" width="200" style="margin-top: 20px;" alt="Моя аватарка" >
+            <div class="info-text">
+            <h1>Евгений Вавилов</h1>
+            <p>Я являюсь студентом курса <strong>Владилена Минина</strong>, по изучнию <em>HTML и CSS</em></p>
+            <p>Я люблю <em>заниматься спортом, <strong>программировать</strong>, читать книги и изучать английский язык</em></p>
+            <h3>Список социальных сетей:</h3>
+            <a href="https://instagram.com/evgeny_vealov?utm_medium=copy_lonk" target="_blank" class="btn2" style=" text-decoration: none; background: rgba(239,0, 121, 1);">Instagram</a>
+            | 
+            <a href="https://t.me/Dometo"target=_blank class="btn2" style="text-decoration: none; background: rgba(43, 161, 218, 1);">Telegram</a> 
+            | 
+            <a href="https://vk.com/id489810594" target="_blank" class="btn2" style="text-decoration: none; background: rgba(82, 129, 185, 1);">Vk.com</a>
+            </div>
+        </div>
+
+        <div class="card bg-green">
+        <h2>Мои хобби:</h2>
+        <ol class="list">
+            <li>Баскетбол</li>
+            <li>Английский язык</li>
+            <li>Книги</li>
+            <li>Занятия спортом</li>
+        </ol>
+        </div>
+
+        <div class="card bg-red">
+        <h2>Опыт работы</h2>
+        <table class="table">
+            <!-- <thead>
+                <tr>
+                    <th>Название</th>
+                    <th>Должность</th>
+                    <th>Год</th>
+                </tr>
+            </thead> -->
+            <tbody>
+                <tr>
+                    <td>Эр-Телеком</td>
+                    <td>Сервисный инженер</td>
+                    <td>2021-сейчас</td>
+                </tr>
+                <tr>
+                    <td>Компания-ТК</td>
+                    <td>Менеджер</td>
+                    <td>2019-2020</td>
+                </tr>
+                <tr>
+                    <td>Сбербанк</td>
+                    <td>Консультант</td>
+                    <td>2018-2019</td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+            <div class="card bg-yellow">
+            <h2>Мое образование</h2>
+            <ul class="link-list">
+                <li>
+                    <a class="dec" href="https://iem.tsu.ru/education/magistratura/economy.html" target="_blank">Экономика инноваций и развития</a>  
+                </li>
+                <li>
+                    <a class="dec" href="https://abiturient.tusur.ru/ru/napravleniya-podgotovki/ochnaya-forma-obucheniya/2022-38-03-01-ekonomika-fulltime#profile_1368" target="_blank">Финансы и кредит</a> 
+                </li>
+            </ul>
+            </div>
+
+        <form class="form">
+            <h2>Связаться со мной</h2>
+
+            <div class="form-row">
+
+                <div class="form-group">
+                    <label for="name">Ваше имя:</label>
+                    <input type="text" id="name" placeholder="Введите имя">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Ваш email:</label>
+                    <input type="email" id="email" placeholder="Введите email">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="massage">Ваше сообщение:</label>
+                <textarea id="massage" cols="25" rows="5" placeholder="Введите сообщение..."></textarea>
+            </div>
+
+            <button type="submit" class="btn">Отправить!</button>
+        </form>
+        </div>
+    </body>
+</html>
